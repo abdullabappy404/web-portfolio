@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 45px;
 }
+h2{
+    font-size: 35px;
+}
 .name-color{
     color: orange
 }
@@ -23,12 +26,18 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     color: aliceblue;
     text-decoration: none;
-    background-color: orange;
-    padding: 5px;
-    border: 3px solid orange;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 7px 14px;
     border-radius: 5px;
+    font-weight: 500;
+}
+.middle-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
